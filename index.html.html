@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Growth Stimulator</title>
+    <style>
+        body
+        {
+            text-align: center;
+            font-family:Arial,sans-serif;
+            margin-top:50px;
+        }
+        h1
+        {
+            color:green;
+        }
+        #tree
+        {
+            width:300px;
+            display:block;
+            margin:20px auto;
+        }
+        button
+        {
+           display:flex;
+           flex-wrap:wrap;
+           justify-content:center;
+           gap:10px;
+           width:500px;
+           margin:30px auto;
+        }
+        button:hover
+        {
+            opacity:0.8;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Tree Growth Stimulator</h1>
+        <br><br>
+        <img id="tree" src="plant1.png.png" width="300">
+        <p id="info"></p>
+        <button onclick="addwater()">Water</button>
+        <button onclick="urea()">Urea</button>
+        <button onclick="addflowers()">Potassium Nitrate (KNO₃)</button>
+        <button onclick="addpesticide()">2,4-D</button>
+        <button onclick="addfruits()">Potassium Sulphate (SOP)</button>
+
+        <script src="./script.js"></script>
+
+    </body>
+    </html>
