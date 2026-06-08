@@ -7,7 +7,7 @@ function urea()
         document.getElementById("tree").src="plant2.png.png";
         document.getElementById("info").innerHTML="You can add urea to grow plant";
     }
-    if(stage==3)
+   else if(stage==3)
     {
         document.getElementById("tree").src="tree1.png.png";
         document.getElementById("info").innerHTML="The plant is growing! You can add some more urea to grow";
@@ -22,7 +22,7 @@ function addflowers()
 {
     
         document.getElementById("tree").src="flower.png";
-        document.getElementById("info").innerHTML="Pottasium nitrate is helps to have flowers";
+        document.getElementById("info").innerHTML="Potassium nitrate helps the tree produce flowers.";
     
 }
 function addfruits()
@@ -30,7 +30,7 @@ function addfruits()
 
 
         document.getElementById("tree").src="fruit.png";
-        document.getElementById("info").innerHTML="Potassium sulphate is helps to have fruits";
+        document.getElementById("info").innerHTML="Potassium sulphate helps the tree produce fruits.";
 }
 function addwater()
 {
@@ -40,5 +40,5 @@ function addwater()
 function addpesticide()
 {
     document.getElementById("tree").src="2,4-D.png";
-    document.getElementById("info").innerHTML="2,4-D is a dangerous pesticide ";
+    document.getElementById("info").innerHTML="2,4-D is a herbicide and should be used carefully.";
 }
