@@ -26,7 +26,8 @@ A basic web-based Tree Growth and Agriculture Chemical Effect Simulator built us
 
 ## 📸 Screenshot
 
-<img width="783" height="842" alt="image" src="https://github.com/user-attachments/assets/e076a964-b960-4686-8b24-b34790682277" />
+<img width="1117" height="837" alt="image" src="https://github.com/user-attachments/assets/29a66fbf-84e4-49fc-823b-a992e1ad7d5c" />
+
 
 
 ## 🎯 Project Objective
